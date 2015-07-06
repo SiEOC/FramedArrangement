@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#include "FourSquaresViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -18,7 +18,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+    
+    FourSquaresViewController *addToRoot = [FourSquaresViewController new];
+    
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:addToRoot];
+    
+   
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     

@@ -79,9 +79,9 @@
 		4F9CBA301A4A1DF60029E2F7 /* FramedArrangement */ = {
 			isa = PBXGroup;
 			children = (
-				4F9CBA351A4A1DF60029E2F7 /* AppDelegate.h */,
 				06027C151B4B2EFA00B267FB /* FourSquaresViewController.h */,
 				06027C161B4B2EFA00B267FB /* FourSquaresViewController.m */,
+				4F9CBA351A4A1DF60029E2F7 /* AppDelegate.h */,
 				4F9CBA361A4A1DF60029E2F7 /* AppDelegate.m */,
 				4F9CBA3E1A4A1DF60029E2F7 /* Images.xcassets */,
 				4F9CBA401A4A1DF60029E2F7 /* LaunchScreen.xib */,

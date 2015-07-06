@@ -23,6 +23,15 @@
     UIView *blackView = [UIView new];
     UIView *orangeView = [UIView new];
     
+    UIView *tinySquare = [UIView new];
+    tinySquare.frame = CGRectMake(2.0, 3.00, 4.00, 3.00);
+    tinySquare.backgroundColor = [UIColor greenColor];
+    
+    UIView *anotherSmallSquare = [UIView new];
+    anotherSmallSquare.frame  = CGRectMake(10.00, 16.00 ,33.00, 45.00);
+    anotherSmallSquare.backgroundColor = [UIColor purpleColor];
+    
+    
     orangeView.frame = CGRectMake(70.00, 80.00, 120.00, 200.00);
     blackView.frame = CGRectMake(5.00, 10.00, 10.00, 12.00);
     blueView.frame = CGRectMake(10.00, 15.00, 30.00, 45.00);
@@ -33,7 +42,16 @@
     blueView.backgroundColor = [UIColor blueColor];
     redView.backgroundColor = [UIColor redColor];
     
+    
+    
     [self.view addSubview:redView];
+    [self.view addSubview:blueView];
+    [self.view addSubview:blackView];
+    [self.view addSubview:orangeView];
+    [self.view addSubview:tinySquare];
+    [self.view addSubview:anotherSmallSquare];
+    
+    
     
     
 }
