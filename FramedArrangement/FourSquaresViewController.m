@@ -21,11 +21,14 @@
     UIView *redView = [UIView new];
     UIView *blueView = [UIView new];
     UIView *blackView = [UIView new];
+    UIView *orangeView = [UIView new];
     
+    orangeView.frame = CGRectMake(70.00, 80.00, 120.00, 200.00);
     blackView.frame = CGRectMake(5.00, 10.00, 10.00, 12.00);
     blueView.frame = CGRectMake(10.00, 15.00, 30.00, 45.00);
     redView.frame = CGRectMake(50.00, 60.00, 100.00, 200);
     
+    orangeView.backgroundColor = [UIColor grayColor];
     blackView.backgroundColor = [UIColor blackColor];
     blueView.backgroundColor = [UIColor blueColor];
     redView.backgroundColor = [UIColor redColor];
