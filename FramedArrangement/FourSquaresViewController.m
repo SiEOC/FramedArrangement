@@ -51,6 +51,16 @@
     [self.view addSubview:tinySquare];
     [self.view addSubview:anotherSmallSquare];
     
+// Label With "Hello World"
+    
+    
+    UILabel *label = [[UILabel alloc] init];
+    label.frame = CGRectMake(50.0, 77.0, 100.0, 34.5);
+    label.text = @"Hello World";
+    label.textColor = [UIColor whiteColor];
+    
+    [self.view addSubview:label];
+    
     
     
     

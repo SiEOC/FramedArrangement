@@ -20,12 +20,14 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     FourSquaresViewController *addToRoot = [FourSquaresViewController new];
+
     
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:addToRoot];
-    
+    [self.window setRootViewController:addToRoot];
    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+
     
     return YES;
 }
